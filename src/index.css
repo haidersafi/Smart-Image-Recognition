@@ -1,10 +1,27 @@
-body {
+html { 
+  background: linear-gradient(to top right, rgb(42, 56, 209), rgb(60, 67, 209), rgb(77, 79, 210), rgb(95, 90, 210), rgb(113, 101, 211), rgb(131, 112, 211), rgb(148, 124, 212), rgb(166, 135, 212), rgb(184, 146, 213), rgb(202, 157, 213), rgb(219, 169, 214), rgb(237, 180, 214)) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  padding: 0;
+  font-family:Spongeboy Me Bob Regular;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+
+}
+
+
+@font-face {
+font-family: 'Spongeboy Me Bob Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Spongeboy Me Bob Regular'), url('Spongeboy Me Bob.woff') format('woff');
 }
 
 code {
